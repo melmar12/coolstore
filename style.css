@@ -2,17 +2,13 @@ html, body {
     margin: 0;
 }
 
-
-
-
-
-
 /* Module 1 */
 h1 {
-    font-family: sans-serif;
+    font-family: serif;
+    font-weight: 100;
     color: white;
     font-size: 80px;
-    border: solid white 6px;
+    border: solid white 1px;
     position: relative;
     margin: 0 auto; /*horiz centering!*/
     padding: 36px 36px 26px 36px; /* top right bottom left */
@@ -24,4 +20,48 @@ h1 {
     height: 500px;
     text-align: center;
     padding-top: 220px; /*vert center-ish h1, better way?*/
+}
+
+/* Module 2 */
+#catalog { /* link box */
+    height: 50;
+    width: 200;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a, h2 {
+    padding-top: 20px;
+    display: inline-block;
+}
+
+#catalog a { /* links */
+    text-decoration: none;
+    color: black;
+}
+
+#catalog a:hover {
+    color: darkgrey;
+}
+
+#catalog h2 { /* the | spacers */
+    font-size: 12;
+}
+
+
+#woman-box {
+    width: 940px;
+    margin: 0 auto;
+}
+.card {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    margin: 0px 20px 0px 20px;
+}
+
+.card img {
+    position: relative;
+    width: 250px;
+    height: auto;
 }
