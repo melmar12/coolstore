@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 
-/* Module 1 */
+/* ------ Module 1 ------ */
 h1 {
     font-family: serif;
     font-weight: 100;
@@ -11,23 +11,23 @@ h1 {
     border: solid white 1px;
     position: relative;
     margin: 0 auto; /*horiz centering!*/
-    padding: 36px 36px 26px 36px; /* top right bottom left */
+    padding: 0px 36px 0px 36px; /* top right bottom left */
     width: 400px;
 }
 #Mod1 {
-    background-image: url(images/static-tile1.png);
     width: 100%;
     height: 500px;
     text-align: center;
-    padding-top: 220px; /*vert center-ish h1, better way?*/
+    padding-top: 300px; /*vert center-ish h1, better way?*/
 }
 
-/* Module 2 */
+/* ------ Module 2 ------ */
 #catalog { /* link box */
     height: 50;
     width: 200;
     margin: 0 auto;
     text-align: center;
+    padding-top: 50px;
 }
 
 a, h2 {
@@ -49,7 +49,7 @@ a, h2 {
 }
 
 
-#woman-box {
+#woman-box { /* items container */
     width: 940px;
     margin: 0 auto;
 }
@@ -58,10 +58,18 @@ a, h2 {
     margin: 0 auto;
     padding: 10px;
     margin: 0px 20px 0px 20px;
+    opacity: 0;
+    transform: translateX(20px); /*animation*/
+    transition: all 0.3s ease-in-out;
 }
 
 .card img {
     position: relative;
     width: 250px;
     height: auto;
+}
+
+.is-showing { /*animation trigger*/
+    opacity: 1;
+    transform: translateX(0px);
 }
