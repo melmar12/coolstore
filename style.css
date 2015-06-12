@@ -22,7 +22,7 @@ h1 {
 }
 
 /* ------ Module 2 ------ */
-#catalog { /* link box */
+#menu { /* link box */
     height: 50;
     width: 200;
     margin: 0 auto;
@@ -35,21 +35,21 @@ a, h2 {
     display: inline-block;
 }
 
-#catalog a { /* links */
+#menu a { /* links */
     text-decoration: none;
     color: black;
 }
 
-#catalog a:hover {
+#menu a:hover {
     color: darkgrey;
 }
 
-#catalog h2 { /* the | spacers */
+#menu h2 { /* the | spacers */
     font-size: 12;
 }
 
 
-#woman-box { /* items container */
+#content-box { 
     width: 940px;
     margin: 0 auto;
 }
