@@ -58,18 +58,10 @@ a, h2 {
     margin: 0 auto;
     padding: 10px;
     margin: 0px 20px 0px 20px;
-    opacity: 0;
-    transform: translateX(20px); /*animation*/
-    transition: all 0.3s ease-in-out;
 }
 
 .card img {
     position: relative;
     width: 250px;
     height: auto;
-}
-
-.is-showing { /*animation trigger*/
-    opacity: 1;
-    transform: translateX(0px);
 }

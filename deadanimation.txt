@@ -1,0 +1,33 @@
+animation was being fucky so im taking it out for now
+
+---- CSS
+
+.is-showing { /*animation trigger*/
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+"add to .card"
+  opacity: 0;
+  transform: translateX(20px); /*animation*/
+  transition: all 0.3s ease-in-out;
+    
+---- JS
+
+// scroll animation
+$(window).scroll(function(){
+    
+    var wScroll = $(this).scrollTop();
+    
+    if(wScroll > $('#Mod1').offset().top + 400) {
+
+        $('#feature-box div').each(function(i){
+
+        setTimeout(function(){
+            $('#feature-box div').eq(i).addClass('is-showing');
+        }, (700 * (Math.exp(i * 0.14))) - 700);
+        });     
+    }
+    
+    
+     });
