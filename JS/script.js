@@ -4,17 +4,17 @@ $( "#content-box" ).load( "inserts/woman.html" );
 
 // menu clicks
 // add loading animation?
-$("#man-link").click(function() {
+$("#woman-link").click(function() {
     
-    $( "#content-box" ).load( "inserts/man.html" );
+    $( "#content-box" ).load( "inserts/woman.html" );
     
     return false;
 });
 
-$("#woman-link").click(function() {
+$("#man-link").click(function() {
     
-    $( "#content-box" ).load( "inserts/woman.html" );
-         
+    $( "#content-box" ).load( "inserts/man.html" );
+
     return false;
 });
 

@@ -19,9 +19,14 @@ h1 {
     height: 500px;
     text-align: center;
     padding-top: 300px; /*vert center-ish h1, better way?*/
+    z-index: 1;
 }
 
 /* ------ Module 2 ------ */
+#Mod2 {
+    margin-bottom: 200px;
+    background: white;
+}
 #menu { /* link box */
     height: 50;
     width: 200;
@@ -64,4 +69,27 @@ a, h2 {
     position: relative;
     width: 250px;
     height: auto;
+}
+
+
+/* ------ Module 3 ------ */
+
+#Mod3 {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#footer-box {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#Mod3 div div {
+    display: inline-block;
+    padding: 20px 40px 20px 40px;
+    margin: 0 40px 0 40px;
 }
