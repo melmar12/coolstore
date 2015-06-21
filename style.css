@@ -24,7 +24,6 @@ h1 {
 
 /* ------ Module 2 ------ */
 #Mod2 {
-    margin-bottom: 200px;
     background: white;
 }
 #menu { /* link box */
@@ -71,10 +70,44 @@ a, h2 {
     height: auto;
 }
 
-
-/* ------ Module 3 ------ */
+/* ------ Mod3 ------ */
 
 #Mod3 {
+    background: white;
+    border-top: 1px solid whitesmoke;
+    margin-bottom: 180px;
+    height: 500px;
+    background-image: url(1264jf9.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#Mod3 div {
+    position: relative;
+    font-family: sans-serif;
+    color: white;
+    line-height: 30px;
+    background: grey;
+    height: 350px;
+    width: 700px;
+    float: right;
+    padding: 0 70px 0 70px;
+    margin-top: 100px;
+}
+h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 2px;
+    letter-spacing: 10px;
+}
+
+
+
+
+
+/* ------ footer ------ */
+
+#footer {
     background-color: black;
     color: white;
     position: fixed;
@@ -88,8 +121,10 @@ a, h2 {
     margin: 0 auto;
 }
 
-#Mod3 div div {
+#footer div div {
     display: inline-block;
     padding: 20px 40px 20px 40px;
     margin: 0 40px 0 40px;
 }
+
+
